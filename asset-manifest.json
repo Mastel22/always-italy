@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/always-Italia/static/css/main.c585713b.chunk.css",
+    "main.js": "/always-Italia/static/js/main.7ca270d6.chunk.js",
+    "main.js.map": "/always-Italia/static/js/main.7ca270d6.chunk.js.map",
+    "runtime-main.js": "/always-Italia/static/js/runtime-main.08a16602.js",
+    "runtime-main.js.map": "/always-Italia/static/js/runtime-main.08a16602.js.map",
+    "static/js/2.aa3a1590.chunk.js": "/always-Italia/static/js/2.aa3a1590.chunk.js",
+    "static/js/2.aa3a1590.chunk.js.map": "/always-Italia/static/js/2.aa3a1590.chunk.js.map",
+    "static/js/3.4db5e664.chunk.js": "/always-Italia/static/js/3.4db5e664.chunk.js",
+    "static/js/3.4db5e664.chunk.js.map": "/always-Italia/static/js/3.4db5e664.chunk.js.map",
+    "index.html": "/always-Italia/index.html",
+    "static/css/main.c585713b.chunk.css.map": "/always-Italia/static/css/main.c585713b.chunk.css.map",
+    "static/js/2.aa3a1590.chunk.js.LICENSE.txt": "/always-Italia/static/js/2.aa3a1590.chunk.js.LICENSE.txt",
+    "static/media/about.ab0d4644.png": "/always-Italia/static/media/about.ab0d4644.png",
+    "static/media/acrylic.a1d2fd8b.png": "/always-Italia/static/media/acrylic.a1d2fd8b.png",
+    "static/media/landing-main.e48a1b27.png": "/always-Italia/static/media/landing-main.e48a1b27.png",
+    "static/media/logo.cc516cff.png": "/always-Italia/static/media/logo.cc516cff.png",
+    "static/media/svg.396da5c0.svg": "/always-Italia/static/media/svg.396da5c0.svg",
+    "static/media/wool.8b284d2c.png": "/always-Italia/static/media/wool.8b284d2c.png",
+    "static/media/yarn.524dc267.png": "/always-Italia/static/media/yarn.524dc267.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.08a16602.js",
+    "static/js/2.aa3a1590.chunk.js",
+    "static/css/main.c585713b.chunk.css",
+    "static/js/main.7ca270d6.chunk.js"
+  ]
+}

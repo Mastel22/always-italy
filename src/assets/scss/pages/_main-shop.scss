@@ -1,0 +1,100 @@
+/*=====Variables====*/
+$primary-color: #8c9278;
+$primary-font: 'NobelBook';
+
+html {
+  font-family: $primary-font;
+}
+
+.mainnav-container {
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  // margin-top: 10px;
+  // border-bottom: 1px solid #ebece6;
+}
+
+.welcome-container h4{
+  font-family: "NobelBook";
+  font-size: 1.2em;
+  font-weight: normal;
+  text-align: center;
+  color: #000;
+}
+
+.left-nav {
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.left-nav h6 {
+  cursor: pointer;
+}
+
+.middle-nav h5 {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.left-nav h6 {
+  font-size: 0.7em;
+  font-weight: normal;
+  color: black;
+}
+
+.shop-middle {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.new-section {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.new-tagline {
+  background-color: #d1c7b8;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  width: 450px;
+  padding: auto;
+}
+
+.new-image img {
+  height: 200px;
+  width: 450px;
+}
+
+.product-nav {
+  display: flex;
+  width: 200px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.product-nav h6 {
+  font-size: 11px;
+  border-bottom: 1px solid #000;
+  cursor: pointer;
+}
+
+.product-nav h6:hover {
+  color: blue;
+}
+
+.shop-item h6{
+  font-family: "NobelBook";
+  font-size: 0.8em;
+  font-weight: normal;
+}
