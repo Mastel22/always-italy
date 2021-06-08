@@ -1,0 +1,83 @@
+html {
+  background-color: #fff;
+}
+.signup-container {
+  max-width: 1100px;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-section img {
+  height: 100vh;
+  // width: 80vh;
+}
+
+.second-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.signup-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+  align-items: center;
+}
+
+.signup-header h4{
+  font-family: "NobelBook";
+  font-size: 1.3em;
+  color: #000;
+  font-weight: bold;
+}
+.signup-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 100px;
+}
+
+.signup-input input {
+  margin-top: 10px;
+  width: 270px;
+  height: 30px;
+  background-color: #f2f7e5;
+  border: 2px solid #eff1e9;
+  color: #8c9278;
+  padding-left: 20px;
+  font-size: 0.8em;
+  font-family: "NobelBook";
+}
+
+
+.signup-input button {
+  margin-top: 10px;
+  width: 300px;
+  height: 30px;
+  background-color: #8c9278;
+  border: 0;
+  color: #fff;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom-text h6 {
+  font-family: "NobelBook";
+  font-weight: normal;
+  text-align: center;
+  font-size: 0.8em;
+  color: #000;
+}
+
+.bottom-text a {
+  color: #8c9278;
+  padding-left: 10px;
+}
