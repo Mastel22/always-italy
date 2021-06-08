@@ -5,9 +5,8 @@ import {
   MdShoppingCart,
   MdPersonOutline,
 } from 'react-icons/md';
-import '../../assets/scss/pages/_main-shop.scss';
 
-const MainNav = () => {
+const ShopNav = () => {
   return (
     <nav>
       <div className="mainnav-container">
@@ -43,4 +42,4 @@ const MainNav = () => {
   );
 };
 
-export default MainNav;
+export default ShopNav;

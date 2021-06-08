@@ -1,0 +1,37 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #000000;
+    opacity: 0.7;
+    height: 70px;
+  }
+  
+  .navbar ul{
+    display: flex;
+    width: 200px;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 60px;
+  }
+  
+  
+  .navbar ul li a:hover{
+    color: #fff;
+  }
+  
+  .navbar ul li a:current{
+    color: #fff;
+  }
+  
+  .logo {
+    text-align: left;
+    font: normal normal 400 45px/52px 'Mr Sheffield';
+    letter-spacing: 0px;
+    color: #acb690;
+    opacity: 1;
+    padding-left: 40px;
+  }
+  

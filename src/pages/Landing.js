@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/Navbar/WebNav';
 import aboutImage from '../assets/images/about.png';
 import { ReactComponent as ServiceImage } from '../assets/images/svg.svg';
 import Footer from '../components/Footer';
@@ -31,7 +31,7 @@ const Landing = () => {
             </div>
           </section>
         </div>
-        <section className="about section bd-container">
+        <div className="about section bd-container">
           <div className="about-container bd-grid">
             <div className="about-data">
               <span className="section-subtitle about-initial">About us</span>
@@ -49,6 +49,29 @@ const Landing = () => {
               </a>
             </div>
             <img src={aboutImage} alt="aboutImage" className="about-img" />
+          </div>
+        </div>
+        <section className="services section bd-container">
+          <span className="section-subtitle">Offering</span>
+          <h2 className="section-title">Our services</h2>
+          <div className="services-container bd-grid">
+            <div className="services-content">
+              <ServiceImage className="services-img" />
+              <h3 className="services-title">Export from Italy</h3>
+              <p className="services-description">
+                We support and represent Italian companies with international
+                ambitions and potential
+              </p>
+            </div>
+            <div className="services-content">
+              <ServiceImage className="services-img" />
+              <h3 className="services-title">Doing business in Italy</h3>
+              <p className="services-description">
+                Italy offers many opportunities for companies abroad; but where
+                to start? Always Italy offers our knowledge, experiences and
+                network in Italy to set-up a successful sustainable business
+              </p>
+            </div>
           </div>
         </section>
         <section className="menu-container ">
@@ -78,29 +101,6 @@ const Landing = () => {
                 <img src={knitting} alt="" className="menu-img" />
               </div>
               <h3 className="menu-name">Accessories</h3>
-            </div>
-          </div>
-        </section>
-        <section className="services section bd-container">
-          <span className="section-subtitle">Offering</span>
-          <h2 className="section-title">Our services</h2>
-          <div className="services-container bd-grid">
-            <div className="services-content">
-              <ServiceImage className="services-img" />
-              <h3 className="services-title">Export from Italy</h3>
-              <p className="services-description">
-                We support and represent Italian companies with international
-                ambitions and potential
-              </p>
-            </div>
-            <div className="services-content">
-              <ServiceImage className="services-img" />
-              <h3 className="services-title">Doing business in Italy</h3>
-              <p className="services-description">
-                Italy offers many opportunities for companies abroad; but where
-                to start? Always Italy offers our knowledge, experiences and
-                network in Italy to set-up a successful sustainable business
-              </p>
             </div>
           </div>
         </section>

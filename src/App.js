@@ -4,7 +4,6 @@ import './App.scss';
 import About from './pages/About';
 import Signup from './pages/auth/Signup';
 import Welcome from './pages/Shop/Welcome';
-import SingleItem from './pages/SingleItem';
 import Signin from './pages/auth/Signin';
 import MainShop from './pages/Shop/MainShop';
 
@@ -17,8 +16,7 @@ function App() {
           <Route path="/about" exact component={About} />
           <Route path="/register" exact component={Signup} />
           <Route path="/login" exact component={Signin} />
-          <Route path="/shop" exact component={Welcome} />
-          <Route path="/singleitem" exact component={SingleItem} />
+          <Route path="/shop" exact component={Welcome} />\
           <Route path="/mainshop" exact component={MainShop} />
         </Switch>
       </div>
