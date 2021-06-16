@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/always-italy/static/css/main.dea46267.chunk.css",
+    "main.js": "/always-italy/static/js/main.e99d9736.chunk.js",
+    "main.js.map": "/always-italy/static/js/main.e99d9736.chunk.js.map",
+    "runtime-main.js": "/always-italy/static/js/runtime-main.c6ffd6e5.js",
+    "runtime-main.js.map": "/always-italy/static/js/runtime-main.c6ffd6e5.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/always-italy/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.e5edc7b1.chunk.js": "/always-italy/static/js/2.e5edc7b1.chunk.js",
+    "static/js/2.e5edc7b1.chunk.js.map": "/always-italy/static/js/2.e5edc7b1.chunk.js.map",
+    "static/js/3.9bfbb7f0.chunk.js": "/always-italy/static/js/3.9bfbb7f0.chunk.js",
+    "static/js/3.9bfbb7f0.chunk.js.map": "/always-italy/static/js/3.9bfbb7f0.chunk.js.map",
+    "index.html": "/always-italy/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/always-italy/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.dea46267.chunk.css.map": "/always-italy/static/css/main.dea46267.chunk.css.map",
+    "static/js/2.e5edc7b1.chunk.js.LICENSE.txt": "/always-italy/static/js/2.e5edc7b1.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/always-italy/static/media/landing3.9694138b.jpg",
+    "static/media/about.ab0d4644.png": "/always-italy/static/media/about.ab0d4644.png",
+    "static/media/acrylic.6c8c34b0.jpg": "/always-italy/static/media/acrylic.6c8c34b0.jpg",
+    "static/media/auth.5cc2d362.png": "/always-italy/static/media/auth.5cc2d362.png",
+    "static/media/knitting.fd56245c.jpg": "/always-italy/static/media/knitting.fd56245c.jpg",
+    "static/media/logo.5574d204.png": "/always-italy/static/media/logo.5574d204.png",
+    "static/media/new-product.da0635d2.png": "/always-italy/static/media/new-product.da0635d2.png",
+    "static/media/svg.a8238c75.svg": "/always-italy/static/media/svg.a8238c75.svg",
+    "static/media/welcome1.0a4fc9fd.png": "/always-italy/static/media/welcome1.0a4fc9fd.png",
+    "static/media/welcome2.fbd6f344.png": "/always-italy/static/media/welcome2.fbd6f344.png",
+    "static/media/welcome3.095dfdc2.png": "/always-italy/static/media/welcome3.095dfdc2.png",
+    "static/media/wool.0959522d.jpg": "/always-italy/static/media/wool.0959522d.jpg",
+    "static/media/yarn.66428769.jpg": "/always-italy/static/media/yarn.66428769.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6ffd6e5.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.e5edc7b1.chunk.js",
+    "static/css/main.dea46267.chunk.css",
+    "static/js/main.e99d9736.chunk.js"
+  ]
+}
