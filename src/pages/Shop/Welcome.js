@@ -1,17 +1,21 @@
-import React from 'react';
-import Logo from '../../assets/images/logo.png';
-import Welcome1 from '../../assets/images/welcome1.png';
-import Welcome2 from '../../assets/images/welcome2.png';
-import Welcome3 from '../../assets/images/welcome3.png';
-import { MdArrowForward } from 'react-icons/md';
+import React from "react";
+import Logo from "../../assets/images/logo.png";
+import Welcome1 from "../../assets/images/welcome1.png";
+import Welcome2 from "../../assets/images/welcome2.png";
+import Welcome3 from "../../assets/images/welcome3.png";
+import { MdArrowForward } from "react-icons/md";
+import "./welcome.css";
 
 const Welcome = () => {
   return (
     <div className="welcome-container">
       <div className="welcome-logo">
-        <img src={Logo} alt="logo" />
+        <a href="/">
+          {" "}
+          <img src={Logo} alt="logo" />
+        </a>
         <h4>Welcome to the webshop</h4>
-        <img src={Welcome1} alt="welcome" />
+        <img src={Welcome1} alt="welcome" style={{ width: "400px" }} />
       </div>
       <div className="shop-categories">
         <div className="shop-item">

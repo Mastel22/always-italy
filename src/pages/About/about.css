@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "NobelBook";
+  box-sizing: border-box;
+}
+
+.about .main-section {
+  background-image: url(../../assets/images/about-page.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.about-data {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  float: right;
+}
+
+.about-description {
+  font-family: "NobelBook";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 31px;
+  color: #fff;
+}
+
+.about-title {
+  font-family: "NobelBook";
+  font-size: 6rem;
+  color: #fff;
+  letter-spacing: 3px;
+  margin-bottom: 0.5rem;
+}
+
+.background-container {
+  width: 100%;
+  display: flex;
+}
+.background-section-img {
+  width: 50%;
+  background-color: rgba(174, 181, 148, 0.1);
+  padding-bottom: 50px;
+}
+
+.about-img {
+  width: 700px;
+  border-radius: 0.5rem;
+}
+
+.background-data-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 90px;
+}
+
+.section-title {
+  font-family: Nobel;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 63px;
+  line-height: 72px;
+}
+
+.section-subtitle {
+  font-family: Nobel;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.section-tags {
+  padding: 40px 0;
+  font-size: "NobelBook";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 45.9px;
+  color: #868b73;
+}
+
+.about-page-description {
+  width: 700px;
+  font-size: "NobelBook";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 23px;
+  line-height: 27.6px;
+  padding-bottom: 40px;
+}
+
+.mission-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mission-img-sec{
+  background-color: rgba(174, 181, 148, 0.1);
+}
+
+.about-page-title {
+  font-family: "NobelBook";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 46px;
+  padding-bottom: 40px;
+  color: #868b73;
+}
+
+.values-section {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.core-values {
+  font-family: 'NobelBook';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+}
+

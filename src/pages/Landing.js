@@ -2,109 +2,123 @@
 import React from 'react';
 import Navbar from '../components/Navbar/WebNav';
 import aboutImage from '../assets/images/about.png';
-import { ReactComponent as ServiceImage } from '../assets/images/svg.svg';
-import Footer from '../components/Footer';
-import yarn from '../assets/images/yarn.jpg';
-import wool from '../assets/images/wool.jpg';
-import acrylic from '../assets/images/acrylic.jpg';
-import knitting from '../assets/images/knitting.jpg';
+import Footer from '../../src/components/Footer/Footer';
+import ButtonArrow from '../components/templates/ButtonArrow/ButtonArrow';
+import acrylic from '../assets/images/acrylic.png';
+import cotton from '../assets/images/cotton.png';
+import wool from '../assets/images/wool.png';
+import pins from '../assets/images/pins.png';
+import serviceIcon from '../assets/images/service-icon.png';
+
 
 const Landing = () => {
   return (
     <div className="landing">
-      <div className="main">
-        <div className="first-section">
-          <Navbar />
-          <section className="home">
-            <div className="home-container ">
-              <div className="home-data">
-                <h1 className="home-title">Always Italy</h1>
-                <h2 className="home-subtitle">
-                  Crazy about the beauty of Italy,
+      <div className="first-section">
+        <Navbar />
+        <section className="home">
+          <div className="home-container ">
+            <div className="home-data">
+              <h1 className="home-title">Always Italy</h1>
+              <h2 className="home-subtitle">
+                Crazy about the beauty of Italy,
                   <br />
                   Serious about fair business with a purpose
                 </h2>
-                <a href="/shop" className="button" style={{ width: '120px' }}>
-                  Go to WebShop
+              <a href="/shop" className="button">
+                Go to WebShop
                 </a>
-              </div>
-            </div>
-          </section>
-        </div>
-        <div className="about section bd-container">
-          <div className="about-container bd-grid">
-            <div className="about-data">
-              <span className="section-subtitle about-initial">About us</span>
-              <h2 className="section-title about-initial">
-                Sì, siamo pazzi per la bella Italia.
-              </h2>
-              <p className="about-description">
-                Always Italy represents Italian companies with distinctive high
-                quality products or services but with distance to markets
-                outside Italy. We offer a transparent, sustainable, fair and
-                long-term business by bridging cultures and knowledge.
-              </p>
-              <a href="/about" className="button">
-                Read More
-              </a>
-            </div>
-            <img src={aboutImage} alt="aboutImage" className="about-img" />
-          </div>
-        </div>
-        <section className="services section bd-container">
-          <span className="section-subtitle">Offering</span>
-          <h2 className="section-title">Our services</h2>
-          <div className="services-container bd-grid">
-            <div className="services-content">
-              <ServiceImage className="services-img" />
-              <h3 className="services-title">Export from Italy</h3>
-              <p className="services-description">
-                We support and represent Italian companies with international
-                ambitions and potential
-              </p>
-            </div>
-            <div className="services-content">
-              <ServiceImage className="services-img" />
-              <h3 className="services-title">Doing business in Italy</h3>
-              <p className="services-description">
-                Italy offers many opportunities for companies abroad; but where
-                to start? Always Italy offers our knowledge, experiences and
-                network in Italy to set-up a successful sustainable business
-              </p>
-            </div>
-          </div>
-        </section>
-        <section className="menu-container ">
-          <span className="section-subtitle">Categories</span>
-          <h2 className="section-title">Our Products</h2>
-          <div className="menu-container bd-grid">
-            <div>
-              <div className="menu-content">
-                <img src={yarn} alt="" className="menu-img" />
-              </div>
-              <h3 className="menu-name">Yarn</h3>
-            </div>
-            <div>
-              <div className="menu-content">
-                <img src={wool} alt="" className="menu-img" />
-              </div>
-              <h3 className="menu-name">Wool</h3>
-            </div>
-            <div>
-              <div className="menu-content">
-                <img src={acrylic} alt="" className="menu-img" />
-              </div>
-              <h3 className="menu-name">Acrylic</h3>
-            </div>
-            <div>
-              <div className="menu-content">
-                <img src={knitting} alt="" className="menu-img" />
-              </div>
-              <h3 className="menu-name">Accessories</h3>
             </div>
           </div>
         </section>
       </div>
+      <section className="about-container">
+        <div className='about-section-img'>
+          <img src={aboutImage} alt="about" className="about-img" />
+        </div>
+        <div className='about-data-sec'>
+          <div className="about-data">
+            <span className="section-subtitle about-subtitle">About us</span>
+            <h2 className="section-tags">
+              Sì, siamo pazzi per la bella Italia.
+              </h2>
+            <p className="description">
+              Always Italy represents Italian companies with distinctive high
+              quality products or services but with distance to markets
+              outside Italy. We offer a transparent, sustainable, fair and
+              long-term business by bridging cultures and knowledge.
+              </p>
+            <ButtonArrow name="Read More" href='./about' />
+          </div>
+        </div>
+      </section>
+      <section className="products-container">
+        <div className='product-data'>
+          <span className="section-subtitle product-subtitle">Categories</span>
+          <h2 className="section-title product-title">Our Products</h2>
+        </div>
+        <div className="landing-products">
+          <div className="first-line">
+            <div>
+              <div className='product-image'>
+                <img src={acrylic} alt='acrylic' className='product-img' />
+              </div>
+              <ButtonArrow name="Acrylic" href='/' />
+            </div>
+            <div>
+              <div className='product-image'>
+                <img src={cotton} alt='cotton' className='product-img' />
+              </div>
+              <ButtonArrow name="Cotton" href='/' />
+            </div>
+          </div>
+          <div className="second-line">
+            <div>
+              <div className='product-image'>
+                <img src={wool} alt='wool' className='product-img' />
+              </div>
+              <ButtonArrow name="Wool" href='/' />
+            </div>
+            <div>
+              <div className='product-image'>
+                <img src={pins} alt='knitting pins' className='product-img' />
+              </div>
+              <ButtonArrow name="Knitting Pins" href='/' />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="service-container">
+        <div className='service-data'>
+          <div>
+            <div className='service-data-sec'>
+              <div>
+                <img src={serviceIcon} alt='service icon' />
+              </div>
+              <div>
+              <h2 className="section-tags">Export From Italy</h2>
+              <p className='description'>We support and represent Italian companies with international ambition and potential</p>
+              </div>
+            </div>
+            <div className='service-data-sec'>
+              <div>
+                <img src={serviceIcon} alt='service icon' />
+              </div>
+              <div>
+                <h2 className="section-tags">Doing business in Italy</h2>
+                <p className='description'>Doing business in Italy
+                Italy offers many opportunities for companies abroad; but where
+                to start? Always Italy offers our knowledge, experiences and
+              network in Italy to set-up a successful sustainable business</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='service-heading'>
+          <span className="section-subtitle service-subtitle">Offering</span>
+          <h2 className="section-title service-title">Our services</h2>
+        </div>
+      </section>
       <Footer />
     </div>
   );

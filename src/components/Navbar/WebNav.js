@@ -1,21 +1,36 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React  from 'react';
+import React, { useEffect } from 'react';
 import './web-nav.css';
 
-const Navbar = (props) => {
+const Navbar = () => {
+  
+  useEffect(() => {
+    const toggleButton = document.getElementsByClassName('toggle-button')[0]
+    const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+    toggleButton.addEventListener('click', () => {
+      navbarLinks.classList.toggle('active')
+    })
+  }, []);
+
   return (
-    <div className="nav-container">
+    <nav className="navbar">
       <div className="logo">
         <a href="/"><h1 className="logo">Always Italy</h1></a>
       </div>
-      <nav className="navbar">
+      <a href="#" className="toggle-button">
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+      </a>
+      <div className="navbar-links">
         <ul>
           <li><a href="/shop">Shop</a></li>
           <li><a href="/about">About</a></li>
           <li><a href="/contactus">Contact us</a></li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 };
 
