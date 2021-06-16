@@ -1,5 +1,5 @@
 import React from 'react';
-import MainNav from '../../components/Navbar/ShopNav';
+import MainNav from '../../Components/Navbar/ShopNav';
 import NewProduct from  '../../assets/images/new-product.png';
 
 const MainShop = (params) => {

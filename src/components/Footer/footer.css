@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background: #8c9278;
+  width: 100%;
+  margin-top: auto;
+  
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer-content {
+  margin: auto 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+.footer-contact,
+.footer-shop {
+  width: 30%;
+}
+
+.footer-disclaimer {
+  width: 40%;
+}
+
+.footer-section h4 {
+  font-size: 1.2em;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-section h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: rgb(117, 94, 94);
+  height: 2px;
+  box-sizing: border-box;
+  width: 40px;
+}
+
+.footer-shop ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  font-size: 0.938rem;
+  text-transform: capitalize;
+  color: rgb(219, 216, 216);
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-shop ul li a:hover {
+  color: #ffffff;
+}
+
+.footer-contact,
+.footer-disclaimer p {
+  font-size: 0.938rem;
+  color: rgb(219, 216, 216);
+  text-decoration: none;
+  font-weight: 300;
+  padding-left: 12px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+.footer-bottom {
+  background: #a0a789;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  color: rgb(219, 216, 216);
+  padding-top: 20px;
+}
+
+@media (max-width: 800px) {
+  footer {
+    width: 100%;
+    padding: 10px 0 20px 10px;
+    display: relative;
+    /* overflow-x: hidden; */
+  }
+  footer .container {
+    flex-direction: column;
+  }
+
+  .container {
+    padding: 30px 0;
+  }
+
+  .footer-section {
+    width: 100%;
+    font-size: 1.125em;
+  }
+  .footer-contact .contacts {
+    font-size: 1em;
+  }
+  .footer-contact {
+    padding-right: 8px;
+  }
+
+  .footer-shop {
+    margin-top: 30px;
+  }
+  .footer-shop ul li {
+    font-size: 1em;
+  }
+  .footer-disclaimer {
+    margin-top: 30px;
+  }
+  .footer-bottom{
+      display: absolute;
+      bottom: 0;
+  }
+}
