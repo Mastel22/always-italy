@@ -102,7 +102,7 @@
       font-size: 20px;
   }
 
-  #name{
+  /* #name{
       margin-left: 35px;
   }
   #email{
@@ -110,7 +110,7 @@
 }
 #message{
     margin-left: 15px;
-}
+} */
   .social-pages ul {
     width: 100%;
     display: flex;
