@@ -18,7 +18,6 @@ const About = () => {
             Italy. We offer a transparent, sustainable, fair and
             long-term business by bridging cultures and knowledge.
             </h2>
-
       </div>
       </div>
         </section>  
@@ -26,7 +25,6 @@ const About = () => {
          <div className="about-container">
            <div className="about-section-container">
              <h1>Background</h1>
-             <hr></hr>
              <p className="black-text">Our products were born from the experience of the Morelli family,in the sale of yarns,including wool,wool blends,cotton and cashmere exactly since 1978. 
              A structured company that follows the production from the origin, even taking care of the choice of the high quality raw materials, directly sourced in various parts of the world in order to get the finest quality of products. The choice of the selected yarns is followed by processing in the company's own plant in Italy, so that they can become the valuable products that distinguish themselves in this market.</p>
            </div>
@@ -35,7 +33,6 @@ const About = () => {
        <section className="mission-container">   
        <div className='mission-data'> 
        <h2 className="mission-title"> Our Mission</h2>
-       <hr id="hr-mission"></hr>
        <p className="black-text">A business world in which open, honest, fair , and true sustainable relationships connect and positively impact Italian producers,companies, economy and employees.
        </p>
        </div>       
@@ -45,7 +42,6 @@ const About = () => {
              <div className="values-data">
               <h2>Core Values</h2>
               </div>
-               <hr id="hr-core"></hr>
               <ul className="values">
                 <li>-Be Fair</li>
                 <li>-Be Transparent</li>
@@ -54,7 +50,6 @@ const About = () => {
                 <li>-Be Sustainable</li>
               </ul>            
               </div> 
-
     < Footer />
     </div>  
   );

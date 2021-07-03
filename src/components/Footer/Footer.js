@@ -8,14 +8,14 @@ const Footer = () => {
     <footer>
       <div className="container">
         <div className="footer-section footer-contact">
-          <h4>Contact Us</h4>
+          <h4>Contact us</h4>
           <div className="contacts">
             <MdCall style={{paddingRight: "10px"}} />
             <span >00 316 15 53 52 36</span>
           </div>
           <div className="contacts">
             <MdMailOutline style={{paddingRight: "10px"}}/>
-            <span>marleen@alwaysitaly.com</span>
+            <span>info@alwaysitaly.com</span>
           </div>
         </div>
         <div className="footer-section footer-shop">

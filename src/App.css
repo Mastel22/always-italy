@@ -8,6 +8,7 @@
   box-sizing: border-box;
 }
 
+
 h1,
 h2,
 h3,
@@ -50,13 +51,13 @@ body{
 
 .button {
   width: 150px;
-  height: 60px;
+  height: 62px;
   text-align: center;
   color: #fff;
   font-family: 'NobelBook';
   background: #868b73;
   border-radius: 15px;
-  padding: 18px;
+  padding: 22px;
 }
 
 .home-title {
@@ -242,6 +243,7 @@ body{
   flex-direction: column;
   justify-content: center;
   padding-left: 90px;
+  padding-bottom: 280px;
 }
 
 .service-title{

@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  .contact{
+    overflow-x: hidden;
+  }
   
   .contact-container {
     width: 100%;
@@ -21,8 +25,8 @@
   }
   
   .message-button{
-    width: 250px;
-    background-color: #AEB594; 
+    width: 25rem;
+    background-color: #AEB594;
     border: none;
     color: white;
     padding: 16px 35px;
@@ -30,12 +34,13 @@
     text-decoration: none;
     margin-top: 30px;
     display: inline-block;
-    font-size: 16px;
-    margin-left: 200px;
+    font-size: 20px;
+    margin-left: 40px;
   }
   .contact-right {
     width: 50%;
     padding: 70px 0 30px 130px;
+    background-color: #e5e5e5;
   }
   
   .contact-header1 {
@@ -88,37 +93,339 @@
     color: #868b73;
   }
   
-
-  .contact-form input{
-      width: 50%;
-      margin-bottom: 15px;
-      padding: 15px;
-      border-radius: 5px;
-      font-size: 20px;
-  }
-
-  .contact-form label{
-      margin: 10px;
-      font-size: 20px;
-  }
-
-  /* #name{
-      margin-left: 35px;
-  }
-  #email{
-    margin-left: 35px;
+.contact-form{
+  padding: 40px;
+  width: 50%;
+  background-color: white;
 }
-#message{
-    margin-left: 15px;
-} */
+
+  .contact-form .inputBox{
+    position: relative;
+   width: 100%;
+   margin-top: 10px;
+    
+}
+
+.contact-form .inputBox input,
+.contact-form .inputBox textarea{
+  width: 70%;
+  padding: 10px 0;
+  font-size: 25px;
+  margin: 5px 0;
+  border: none;
+  border-bottom: 2px solid #868b73;
+  outline: none;
+  resize: none;
+}
+
+.contact-form .inputBox span{
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 20px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.3s;
+  color: #666;
+}
+
+.contact-form .inputBox input:focus ~ span,
+.contact-form .inputBox input:valid ~ span,
+.contact-form .inputBox textarea:focus ~ span,
+.contact-form .inputBox textarea:valid ~ span
+{
+  color: #868b73;
+  font-size: 15px;
+  transform: translateY(-20px);
+}
+
+.contact-form .inputBox input[type="submit"]
+{
+  width: 690px;
+  background: #868b73;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 18px;
+}
+
+ 
   .social-pages ul {
     width: 100%;
     display: flex;
     flex-direction: row;
+    margin-left: -15px;
   }
   
   
   .social-pages ul li a {
     padding: .5rem 1rem;
   }
+
+  a {
+    text-decoration: none;
+    color: #868b73;
+}
+
+a:hover{
+  color: #4b5232;
+}
+
+@media screen and (max-width:800px){
   
+  .contact-right {
+    width: 50%;
+    padding: 40px 0 0px 13px;
+    background-color: #e5e5e5;
+}
+
+  .contact-header2 {
+    font-size: 2.5em;
+    line-height: 40px;
+    padding-bottom: 20px;
+  }
+
+  .contact-paragraph {
+    font-size: 23px;
+    line-height: 28px;
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+
+.contact-span {
+  padding-bottom: 30px;
+}
+
+ul {
+  margin-left: -15px;
+}
+
+.contact-form .inputBox input[type="submit"] {
+  width: 300px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.contact-form .inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 2px;
+}
+
+.contact-form {
+  padding: 35px;
+}
+
+}
+
+@media screen and (max-width:1555px){
+
+  .contact-form .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 45px;
+}
+
+
+.contact-form .inputBox input[type="submit"] {
+  width: 500px;
+}
+
+.contact-right {
+  width: 51%;
+  height: 150%;
+  padding: 0px 0px 0px 40px;
+  background-color: #e5e5e5;
+}
+
+.contact-form {
+  padding: 30px;
+  width: 50%;
+  background-color: white;
+}
+
+}
+
+
+@media screen and (max-width:1075px){
+
+  .contact-form .inputBox input[type="submit"] {
+    width: 450px;
+}
+.contact-header2 {
+  font-size: 4em;  
+  line-height: 60px;
+}
+
+}
+
+@media screen and (max-width:1065px){
+
+  .contact-form .inputBox input[type="submit"] {
+    width: 420px;
+}
+
+.contact-right {
+  width: 51%;
+  height: 160%;
+  padding: 10px 0px 0px 30px;
+  background-color: #e5e5e5;
+
+}
+.contact-header2 {
+  font-size: 4em;  
+  line-height: 60px;
+
+}
+
+}
+
+@media screen and (max-width:1043px){
+
+  .contact-form .inputBox input[type="submit"] {
+    width: 420px;
+}
+
+.contact-right {
+  width: 50%;
+  height: 160%;
+  padding: 10px 0px 0px 20px;
+  background-color: #e5e5e5;
+
+}
+.contact-header2 {
+  font-size: 4em;  
+  line-height: 60px;
+
+
+}
+
+}
+
+@media screen and (max-width:936px){
+
+.contact-form .inputBox input[type="submit"] {
+    width: 380px;
+}
+
+.contact-right {
+  width: 50%;
+  height: 160%;
+  padding: 10px 0px 0px 20px;
+  background-color: #e5e5e5;
+
+}
+.contact-header2 {
+  font-size: 4em;  
+  line-height: 60px;
+}
+
+}
+
+@media screen and (max-width:838px){
+
+.contact-form .inputBox input[type="submit"] {
+    width: 350px;
+}
+
+.contact-right {
+  width: 50%;
+  height: 160%;
+  padding: 10px 0px 0px 20px;
+  background-color: #e5e5e5;
+
+}
+.contact-header2 {
+  font-size: 3.9em;  
+  line-height: 59px;
+}
+
+}
+
+@media screen and (max-width:762px){
+
+  .contact-form .inputBox input[type="submit"] {
+    width: 300px;
+}
+
+.contact-right {
+  width: 50%;
+  height: 160%;
+  padding: 15px 0px 0px 20px;
+  background-color: #e5e5e5;
+
+}
+.contact-header2 {
+  font-size: 3.9em;  
+  line-height: 59px;
+}
+
+}
+
+@media screen and (max-width:670px){
+
+  .contact-form .inputBox input[type="submit"] {
+    width: 200px;
+}
+
+.contact-header2 {
+  font-size: 3em;  
+  line-height: 50px;
+}
+
+.contact-header1 {
+  font-size: 2.5em;
+}
+}
+
+@media screen and (max-width:550px){
+
+  .contact-form .inputBox input[type="submit"] {
+    width: 150px;
+}
+
+.social-pages ul li a {
+  padding: 0.2rem 0.2rem;
+}
+}
+
+@media screen and (max-width:415px){
+
+  .contact-form .inputBox input[type="submit"] {
+    width: 150px;
+}
+
+.social-pages ul li a {
+  padding: 0.1rem 0.1rem;
+}
+.social-pages ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: -15px;
+}
+
+.contact-header1 {
+  font-size: 2em;
+}
+.contact-header2 {
+  font-size: 2.3em;
+  line-height: 40px;
+}
+.contact-paragraph {
+  font-size: 23px;
+  line-height: 27px;
+}
+
+.contact-span span {
+
+  font-size: 18px;
+  line-height: 25px;
+}
+.contact-span h3 {
+  font-size: 17px;
+  line-height: 24px;
+}
+}

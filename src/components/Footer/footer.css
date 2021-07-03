@@ -31,11 +31,11 @@ footer {
 }
 
 .footer-disclaimer {
-  width: 40%;
+  width: 50%;
 }
 
 .footer-section h4 {
-  font-size: 1.2em;
+  font-size: 1.35em;
   color: #ffffff;
   text-transform: capitalize;
   margin-bottom: 35px;
@@ -59,7 +59,7 @@ footer {
 }
 
 .footer-section ul li a {
-  font-size: 0.938rem;
+  font-size: 1rem;
   text-transform: capitalize;
   color: rgb(219, 216, 216);
   text-decoration: none;
@@ -74,11 +74,11 @@ footer {
 
 .footer-contact,
 .footer-disclaimer p {
-  font-size: 0.938rem;
+  font-size: 1.2rem;
   color: rgb(219, 216, 216);
   text-decoration: none;
   font-weight: 300;
-  padding-left: 12px;
+  padding-left: 5px;
 }
 
 .social-links {
@@ -143,9 +143,14 @@ footer {
 
   .footer-shop {
     margin-top: 30px;
+    margin-left: 10px;
   }
   .footer-shop ul li {
     font-size: 1em;
+  }
+
+  ul {
+    margin-left: 0px;
   }
   .footer-disclaimer {
     margin-top: 30px;
@@ -154,4 +159,6 @@ footer {
       display: absolute;
       bottom: 0;
   }
+
+
 }

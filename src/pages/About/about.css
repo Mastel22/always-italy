@@ -47,6 +47,7 @@
 .about-section-container h1{
  color: #868B73;
  margin-left: 1rem;
+ font-size: 3em;
 }
 
 /* mission */
@@ -54,12 +55,13 @@
 .mission-container{
   background-color:#E5E5E5;
   margin-bottom: 20px;
+  width: 45%;
 }
 .mission-data{
   position: relative;
   background-color: white;
-  padding: 130px 350px 120px 40px;
-  width: 56%;
+  padding: 120px 0px 50px 30px;
+  width: 100%;
   margin-left: 59.3rem;
  
 }
@@ -69,6 +71,7 @@
  margin-left: 1rem;
  margin-top: -2.9rem;
  font-weight: bolder;
+ font-size: 3em;
 }
 
 
@@ -80,17 +83,11 @@ hr{
   height: 1px;
 }
 
-#hr-mission{
-  background-color: #868b73;
-  height: 1px;
-  width: 45%;
-  text-align:left;
-  margin-left:-85px;
-}
 
 .black-text{
   color: black;
-  font-size: 1.2em;
+  font-weight: 400;
+  font-size: 28px;
   padding-left: 15px;
   margin-top: 2rem;
 }
@@ -110,14 +107,138 @@ hr{
   margin-top: 4rem;
   display: flex;
   justify-content: space-around;
-  width: 120rem;
+  width: 100rem;
   color:black;
   font-size: 25px;
   text-decoration: none;
+  margin-left: 200px;
 }
 
-#hr-core{
-  width: 40%;
-  margin-left: 600px;
+.about-section-container h1::before{
+  content: "";
+  position: absolute;
+  left: 2;
+  bottom: -140px;
+  background-color:#868B73;
+  height: 1px;
+  box-sizing: border-box;
+  width: 1000px;
 }
 
+.mission-data h2::before{
+  content: "";
+  position: absolute;
+  margin-left: -150px;
+  bottom: 170px;
+  background-color:#868B73;
+  height: 1px;
+  box-sizing: border-box;
+  width: 400px;
+}
+
+.values-data h2::before{
+  content: "";
+  position: absolute;
+  margin-left: -150px;
+  bottom: -850px;
+  background-color:#868B73;
+  height: 1px;
+  box-sizing: border-box;
+  width: 550px;
+}
+
+@media screen and (max-width: 1280) {
+  .homes-title {
+    margin-top: 4rem;
+    margin-left: 40rem;
+    font-weight: bold;
+    font-size: 3.9rem;
+    color: white;
+}
+
+.homes-subtitle {
+  color: #fff;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  margin-left: 39rem;
+  line-height: 39px;
+  font-weight: lighter;
+  letter-spacing: 0px;
+  font-size: 1.7rem;
+  font-family: "Nobel LightCondensed ";
+}
+
+.about-section-container h1::before {
+  content: "";
+  position: absolute;
+  left: 2;
+  bottom: -125px;
+  background-color: #868B73;
+  height: 1px;
+  box-sizing: border-box;
+  width: 650px;
+}
+
+.mission-data {
+  position: relative;
+  background-color: white;
+  padding: 90px 0px 30px 20px;
+  width: 100%;
+  margin-left: 36.3rem;
+}
+
+.values-data h2 {
+  color: #868B73;
+  font-size: 3rem;
+  display: flex;
+  margin-left: 550px;
+}
+
+.values-data h2::before {
+  content: "";
+  position: absolute;
+  margin-left: -175px;
+  bottom: -945px;
+  background-color: #868B73;
+  height: 1px;
+  box-sizing: border-box;
+  width: 550px;
+}
+
+.values {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+  width: 75rem;
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+  margin-left: 35px;
+}
+
+
+
+}
+
+
+/* @media screen and (max-width: 2180 ) {
+  
+  .about-section-container h1::before {
+        bottom: -140px;
+  }
+
+.mission-data {
+      margin-left: 61.5rem;
+}
+
+.values-data h2::before {
+    bottom: -875px;
+    width: 550px;
+}
+
+.homes-title {
+    margin-top: 10rem;
+}
+
+
+} */
