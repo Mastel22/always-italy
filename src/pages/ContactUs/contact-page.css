@@ -9,23 +9,37 @@
   }
   
   .contact-container {
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     height: 100vh;
+    flex-wrap: wrap !important;
+    min-width: 40vw;
+    justify-content: center;
   }
   
   .contact-form {
-    display: flex;
-    flex-direction: column;
-    background-color: #e5e5e5;
-    width: 50%;
+    padding: 40px;
+    flex-grow: 1;
+    background-color: white;
+    width: 40vw;
     height: 100%;
-    padding: 70px 0 30px 130px;
+    order: 2;
   }
   
+  .contact-left {
+    order: 1;
+    flex-grow: 1;
+    padding: 70px 30px 30px 130px;
+    background-color: #e5e5e5;
+    min-width: 50vw;
+  }
+  
+  #submit-contact{
+    width: 200px;
+  }
   .message-button{
-    width: 25rem;
+    max-width: 100px;
     background-color: #AEB594;
     border: none;
     color: white;
@@ -37,11 +51,7 @@
     font-size: 20px;
     margin-left: 40px;
   }
-  .contact-right {
-    width: 50%;
-    padding: 70px 0 30px 130px;
-    background-color: #e5e5e5;
-  }
+  
   
   .contact-header1 {
     font-family: "NobelBook";
@@ -92,16 +102,10 @@
     line-height: 28px;
     color: #868b73;
   }
-  
-.contact-form{
-  padding: 40px;
-  width: 50%;
-  background-color: white;
-}
 
   .contact-form .inputBox{
     position: relative;
-   width: 100%;
+   min-width: 500px;
    margin-top: 10px;
     
 }
@@ -141,7 +145,6 @@
 
 .contact-form .inputBox input[type="submit"]
 {
-  width: 690px;
   background: #868b73;
   color: #fff;
   border: none;
@@ -172,260 +175,3 @@ a:hover{
   color: #4b5232;
 }
 
-@media screen and (max-width:800px){
-  
-  .contact-right {
-    width: 50%;
-    padding: 40px 0 0px 13px;
-    background-color: #e5e5e5;
-}
-
-  .contact-header2 {
-    font-size: 2.5em;
-    line-height: 40px;
-    padding-bottom: 20px;
-  }
-
-  .contact-paragraph {
-    font-size: 23px;
-    line-height: 28px;
-    color: #000000;
-    padding-bottom: 20px;
-}
-
-
-.contact-span {
-  padding-bottom: 30px;
-}
-
-ul {
-  margin-left: -15px;
-}
-
-.contact-form .inputBox input[type="submit"] {
-  width: 300px;
-  padding: 10px;
-  font-size: 18px;
-}
-
-.contact-form .inputBox {
-  position: relative;
-  width: 100%;
-  margin-top: 2px;
-}
-
-.contact-form {
-  padding: 35px;
-}
-
-}
-
-@media screen and (max-width:1555px){
-
-  .contact-form .inputBox {
-    position: relative;
-    width: 100%;
-    margin-top: 45px;
-}
-
-
-.contact-form .inputBox input[type="submit"] {
-  width: 500px;
-}
-
-.contact-right {
-  width: 51%;
-  height: 150%;
-  padding: 0px 0px 0px 40px;
-  background-color: #e5e5e5;
-}
-
-.contact-form {
-  padding: 30px;
-  width: 50%;
-  background-color: white;
-}
-
-}
-
-
-@media screen and (max-width:1075px){
-
-  .contact-form .inputBox input[type="submit"] {
-    width: 450px;
-}
-.contact-header2 {
-  font-size: 4em;  
-  line-height: 60px;
-}
-
-}
-
-@media screen and (max-width:1065px){
-
-  .contact-form .inputBox input[type="submit"] {
-    width: 420px;
-}
-
-.contact-right {
-  width: 51%;
-  height: 160%;
-  padding: 10px 0px 0px 30px;
-  background-color: #e5e5e5;
-
-}
-.contact-header2 {
-  font-size: 4em;  
-  line-height: 60px;
-
-}
-
-}
-
-@media screen and (max-width:1043px){
-
-  .contact-form .inputBox input[type="submit"] {
-    width: 420px;
-}
-
-.contact-right {
-  width: 50%;
-  height: 160%;
-  padding: 10px 0px 0px 20px;
-  background-color: #e5e5e5;
-
-}
-.contact-header2 {
-  font-size: 4em;  
-  line-height: 60px;
-
-
-}
-
-}
-
-@media screen and (max-width:936px){
-
-.contact-form .inputBox input[type="submit"] {
-    width: 380px;
-}
-
-.contact-right {
-  width: 50%;
-  height: 160%;
-  padding: 10px 0px 0px 20px;
-  background-color: #e5e5e5;
-
-}
-.contact-header2 {
-  font-size: 4em;  
-  line-height: 60px;
-}
-
-}
-
-@media screen and (max-width:838px){
-
-.contact-form .inputBox input[type="submit"] {
-    width: 350px;
-}
-
-.contact-right {
-  width: 50%;
-  height: 160%;
-  padding: 10px 0px 0px 20px;
-  background-color: #e5e5e5;
-
-}
-.contact-header2 {
-  font-size: 3.9em;  
-  line-height: 59px;
-}
-
-}
-
-@media screen and (max-width:762px){
-
-  .contact-form .inputBox input[type="submit"] {
-    width: 300px;
-}
-
-.contact-right {
-  width: 50%;
-  height: 160%;
-  padding: 15px 0px 0px 20px;
-  background-color: #e5e5e5;
-
-}
-.contact-header2 {
-  font-size: 3.9em;  
-  line-height: 59px;
-}
-
-}
-
-@media screen and (max-width:670px){
-
-  .contact-form .inputBox input[type="submit"] {
-    width: 200px;
-}
-
-.contact-header2 {
-  font-size: 3em;  
-  line-height: 50px;
-}
-
-.contact-header1 {
-  font-size: 2.5em;
-}
-}
-
-@media screen and (max-width:550px){
-
-  .contact-form .inputBox input[type="submit"] {
-    width: 150px;
-}
-
-.social-pages ul li a {
-  padding: 0.2rem 0.2rem;
-}
-}
-
-@media screen and (max-width:415px){
-
-  .contact-form .inputBox input[type="submit"] {
-    width: 150px;
-}
-
-.social-pages ul li a {
-  padding: 0.1rem 0.1rem;
-}
-.social-pages ul {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  margin-left: -15px;
-}
-
-.contact-header1 {
-  font-size: 2em;
-}
-.contact-header2 {
-  font-size: 2.3em;
-  line-height: 40px;
-}
-.contact-paragraph {
-  font-size: 23px;
-  line-height: 27px;
-}
-
-.contact-span span {
-
-  font-size: 18px;
-  line-height: 25px;
-}
-.contact-span h3 {
-  font-size: 17px;
-  line-height: 24px;
-}
-}

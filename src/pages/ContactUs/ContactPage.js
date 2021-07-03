@@ -29,6 +29,7 @@ const ContactPage = () => {
 
             <div className="inputBox">
               <input
+              id="submit-contact"
                 type="submit"
                 name=""
                 required="required"
@@ -37,7 +38,7 @@ const ContactPage = () => {
             </div>
           </form>
         </div>
-        <div className="contact-right">
+        <div className="contact-left">
           <h1 className="contact-header2">
             We would love <br /> to hear <br /> from you!
           </h1>
