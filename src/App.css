@@ -7,7 +7,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+.gray-bg{
+  background-color: rgba(207, 199, 186, 0.1);
+}
 
+.pink-bg{
+  background-color: rgba(206, 143, 131, 0.1)
+}
 
 h1,
 h2,
@@ -27,8 +37,13 @@ a {
   text-decoration: none;
   color: #707070;
 }
-body{
-  
+a, a:hover, a:focus, a:active {
+  text-decoration: none !important;
+  text-decoration-color: none !important;
+}
+
+.section-padding{
+  padding: 100px 16px;
 }
 
 /*====Landing====*/
@@ -89,7 +104,14 @@ body{
     background-image: url(./assets/images/landing3.jpg);
   }
 }
-
+@media screen and (max-width: 415px) {
+  .home-title{
+    font-size: 40px;
+  }
+  .home-subtitle{
+    font-size: 25px;
+  }
+}
 @media screen and (max-width: 800px) {
   .home-data {
     display: flex;
@@ -128,7 +150,7 @@ body{
   font-family: Nobel;
   font-style: normal;
   font-weight: bold;
-  font-size: 63px;
+  font-size: 50px;
   line-height: 72px;
 }
 
@@ -145,12 +167,11 @@ body{
 }
 
 .section-tags {
-  padding: 40px 0;
   font-size: "NobelBook";
   font-weight: 700;
   font-style: normal;
-  font-size: 40px;
-  line-height: 45.9px;
+  font-size: 30px;
+  line-height: 45px;
   color: #868b73;
 }
 
@@ -163,6 +184,9 @@ body{
   padding-bottom: 40px;
 }
 
+/*////////////////////////////////////
+    LANDING-PAGE
+///////////////////////////////////*/
 .products-container {
   position: relative;
   width: 100%;
@@ -170,96 +194,147 @@ body{
   flex-direction: row;
 }
 
-.products-container .landing-products {
-  position: relative;
-  width: 55%;
+.landing-products-wraper{
+  width: 100%;
   display: flex;
-  justify-content: center;
-  background-color: rgba(174, 181, 148, 0.1);
+  justify-content: space-between;
+  padding: 80px 0;
+
+}
+.landing-products-wraper_title{
+  width: 33%;
+  background-color: #fff;
+}
+.landing-products-wraper_content{
+  width: 67%;
+  display: flex;
   flex-direction: column;
-  padding: 170px;
+  align-items: center;
+  background-color: rgba(206, 143, 131, 0.1);
 }
-
-.products-container .landing-products .first-line {
-  position: relative;
-  display: flex;
-  flex-direction: row;
+.landing-products-items{
+  padding: 16px;
+}
+.landing-products-container{
+  margin: 20px;
   justify-content: space-between;
-  margin-bottom: 40px;
-  right: -30px;
+  width: 40%;
+}
+.landing-products-wraper_title-categories{
+  width: 50%;
+  margin-left: auto;
+  border-bottom: 1px solid #868B73;
+}
+.landing-products-wraper_title-products{
+  text-align: center;
+}
+.landing-products_title-services{
+  text-align: center;
+}
+.landing-products_title-offer{
+  width: 50%;
+  margin-left: auto;
+  border-bottom: 1px solid #868B73;
 }
 
-.product-title{
-  position: relative;
-  color: #868B73;
-  left: 280px;
-}
-
-.product-subtitle{
-  position: relative;
-  color: #868B73;
-  left: 500px;
-}
-
-.products-container .landing-products .second-line {
-  position: relative;
+.aboutus-container{
+  width: 20%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  left: 37px;
+  align-items: flex-end;
+  border-bottom: 1px solid #868B73;
+  padding: 10px 0px;
+  margin: 20px 0px ;
+}
+.landing-aboutus-title{
+  text-align: end;
+  margin-left: auto;
+}
+/* .product-img{
+  background-color: #ffffff;
+  border-radius: 4px;
+  width: 250px;
+  padding: 32px;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  object-position: center;
+} */
+@media screen and (max-width:800px){
+  .landing-products-wraper{
+    flex-direction: column;
+  }
+  .landing-products-wraper_title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+  }
+  .landing-products-wraper_content{
+    width:100%;
+    padding: 0px;
+    margin: 0px;
+    align-items: flex-start;
+  }
+  .landing-products-wraper_title-categories{
+    border-bottom: 1px solid #868B73;
+    width: 70%;
+    display: flex;
+    align-self: flex-end;
+  }
+
+ .landing-products-wraper_title-products{
+    text-align: center;
+  }
+  .landing-products_title-offer{
+    border-bottom: 1px solid #868B73;
+    width: 70%;
+    display: flex;
+    align-self: flex-end;
+  }
+  .landing-products_title-services{
+    text-align: center;
+  }
+  .landing-products-items{
+    padding: 20px;
+    margin: 0px 15px;
+  }
+ 
+  .aboutus-container {
+    width: 60%;
+  }
+  .product-img{
+    width: 70px;
+    height: 70px;
+  }
+  .landing-products-container{
+    width: 100%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px 0px;
+  }
 }
 
-.product-data {
-  position: relative;
-  padding: 100px 0 0 60px;
-  width: 45%;
+@media (max-width: 767px) {
+    .section-padding{
+      padding: 32px 16px;
+    }
 }
-
 .landing-products .product-img {
   width: 250px;
   padding: auto;
 }
-
-.product-image {
-  background-color: #fff;
-  padding: 30px;
-  margin-bottom: 20px;
-}
-
-.service-container{
-  display: flex;
-}
-
-.service-container .service-data{
-  display: flex;
-  width: 45%;
-  background-color: rgba(174, 181, 148, 0.1);
-  padding-left: 40px;
-  padding: 80px
-}
-
-.service-container .service-heading{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 90px;
-  padding-bottom: 280px;
-}
-
 .service-title{
   color: #868B73;
 }
-
 .service-subtitle{
   color: #868B73;
 }
-
 .service-data .service-icon{
   display: flex;
-  flex-direction: column;
-  
+  flex-direction: column;  
 }
-
 .service-data-sec{
   display: flex;
   justify-content: space-between;

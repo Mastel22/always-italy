@@ -30,7 +30,7 @@
   .contact-left {
     order: 1;
     flex-grow: 1;
-    padding: 70px 30px 30px 130px;
+    padding: 70px 10px 30px 100px;
     background-color: #e5e5e5;
     min-width: 50vw;
   }
@@ -163,7 +163,8 @@
   
   
   .social-pages ul li a {
-    padding: .5rem 1rem;
+    padding: 0.5rem 0.5rem;
+    color: #868b73;
   }
 
   a {

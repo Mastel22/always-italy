@@ -16,19 +16,15 @@
   height: 100vh;
 }
 
-.homes-title{
-  margin-top: 20rem ;
-  margin-left: 65rem;
+.first-section-title{
   font-weight:bold;
   font-size: 5rem;
   color: white;
 }
-.homes-subtitle {
+.paragraph {
   font-size: 1.7rem;
   color: #fff;
-  margin-top: 1.5rem;
-  margin-bottom: 2rem;
-  margin-left: 65rem;
+  margin-top: 48px;
   line-height: 45px;
   font-weight: lighter;
   letter-spacing: 1px;
@@ -37,208 +33,68 @@
 }
 
 /* background */
-.about-section-container{
-  width: 45%;
-  background-color: white;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.about-section-container h1{
+.about-section{
  color: #868B73;
  margin-left: 1rem;
- font-size: 3em;
+ font-weight: 700;
+ border-bottom: 1px solid #868b73;
 }
 
 /* mission */
-
-.mission-container{
-  background-color:#E5E5E5;
-  margin-bottom: 20px;
-  width: 45%;
-}
-.mission-data{
-  position: relative;
-  background-color: white;
-  padding: 120px 0px 50px 30px;
-  width: 100%;
-  margin-left: 59.3rem;
- 
-}
-
 .mission-title{
  color: #868b73;
  margin-left: 1rem;
- margin-top: -2.9rem;
- font-weight: bolder;
- font-size: 3em;
+ width: fit-content !important;
+ min-width: 40%;
+ font-weight: 700;
+ border-bottom: 1px solid #868b73;
 }
-
-
-hr{
-  background-color: #868B73;
-  width: 105%;
-  text-align:left;
-  margin-left:20px;
-  height: 1px;
-}
-
 
 .black-text{
   color: black;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 25px;
   padding-left: 15px;
   margin-top: 2rem;
 }
 
-.values-data h2{
+/* Core values */
+.values-title{
   color: #868B73;
-  font-size: 3rem;
-  display: flex;
-  margin-left: 900px;
+  font-size: 2.5rem;
+  margin: 0 auto;
+  border-bottom: 1px solid #868b73;
+  width: fit-content !important;
+  min-width: 40%;
+  font-weight: 700;
+  text-align: center;
 }
-.values-data{
-  justify-content: space-around;
-    list-style: none;
-    width: 350%;
-}
+
 .values{
-  margin-top: 4rem;
-  display: flex;
-  justify-content: space-around;
-  width: 100rem;
+  margin-top: 3rem;  
   color:black;
-  font-size: 25px;
-  text-decoration: none;
-  margin-left: 200px;
+  font-size: 25px; 
+}
+.values span{
+  margin: 0 16px;
 }
 
-.about-section-container h1::before{
-  content: "";
-  position: absolute;
-  left: 2;
-  bottom: -140px;
-  background-color:#868B73;
-  height: 1px;
-  box-sizing: border-box;
-  width: 1000px;
-}
-
-.mission-data h2::before{
-  content: "";
-  position: absolute;
-  margin-left: -150px;
-  bottom: 170px;
-  background-color:#868B73;
-  height: 1px;
-  box-sizing: border-box;
-  width: 400px;
-}
-
-.values-data h2::before{
-  content: "";
-  position: absolute;
-  margin-left: -150px;
-  bottom: -850px;
-  background-color:#868B73;
-  height: 1px;
-  box-sizing: border-box;
-  width: 550px;
-}
-
-@media screen and (max-width: 1280) {
-  .homes-title {
-    margin-top: 4rem;
-    margin-left: 40rem;
-    font-weight: bold;
-    font-size: 3.9rem;
-    color: white;
-}
-
-.homes-subtitle {
-  color: #fff;
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
-  margin-left: 39rem;
-  line-height: 39px;
-  font-weight: lighter;
-  letter-spacing: 0px;
-  font-size: 1.7rem;
-  font-family: "Nobel LightCondensed ";
-}
-
-.about-section-container h1::before {
-  content: "";
-  position: absolute;
-  left: 2;
-  bottom: -125px;
-  background-color: #868B73;
-  height: 1px;
-  box-sizing: border-box;
-  width: 650px;
-}
-
-.mission-data {
-  position: relative;
-  background-color: white;
-  padding: 90px 0px 30px 20px;
-  width: 100%;
-  margin-left: 36.3rem;
-}
-
-.values-data h2 {
-  color: #868B73;
-  font-size: 3rem;
-  display: flex;
-  margin-left: 550px;
-}
-
-.values-data h2::before {
-  content: "";
-  position: absolute;
-  margin-left: -175px;
-  bottom: -945px;
-  background-color: #868B73;
-  height: 1px;
-  box-sizing: border-box;
-  width: 550px;
-}
-
-.values {
-  margin-top: 4rem;
-  display: flex;
-  justify-content: space-around;
-  width: 75rem;
-  color: black;
-  font-size: 25px;
-  text-decoration: none;
-  margin-left: 35px;
-}
-
-
-
-}
-
-
-/* @media screen and (max-width: 2180 ) {
-  
-  .about-section-container h1::before {
-        bottom: -140px;
+@media (max-width: 767px) {
+  .first-section-title{
+    font-weight:bold;
+    font-size: 3rem;
+    margin-top: -170px;
   }
-
-.mission-data {
-      margin-left: 61.5rem;
+  .paragraph {
+    font-size: 1.5rem;
+    margin-top: 45px;
+    line-height: 35px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+  }
+  .text-center {
+    text-align: center!important;
+    display: flex;
+    flex-direction: column;
 }
-
-.values-data h2::before {
-    bottom: -875px;
-    width: 550px;
 }
-
-.homes-title {
-    margin-top: 10rem;
-}
-
-
-} */

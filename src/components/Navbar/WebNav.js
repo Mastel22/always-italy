@@ -14,9 +14,11 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="navbar">
+    <nav className="navbar ">
       <div className="logo">
-        <a href="/"><h1 className="logo">Always Italy</h1></a>
+        <a href="/"><h1 style={{
+          outline:'none'
+        }} className="logo">Always Italy</h1></a>
       </div>
       <a href="#" className="toggle-button">
         <span className="bar"></span>
