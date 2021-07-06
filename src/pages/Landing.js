@@ -68,8 +68,8 @@ const Landing = () => {
           <h2 className="section-title service-title landing-products-wraper_title-products">Our Products</h2>
           </div>
           <div className="landing-products-wraper_content">
-          <div className="d-flex landing-products-container">
-             <div>
+          <div className=" row d-flex landing-products-container">
+             <div className="col-12 col-md-6">
                 <div className="landing-products-items">
                 <img src={acrylic} alt='acrylic' className='product-img' />
                 </div>
@@ -77,7 +77,7 @@ const Landing = () => {
                 <ButtonArrow name="Acrylic" href='/' />
                 </div>
             </div>
-            <div>
+            <div className="col-12 col-md-6">
                 <div className="landing-products-items">
                 <img src={cotton} alt='cotton' className='product-img' />
                 </div>
@@ -85,9 +85,8 @@ const Landing = () => {
                   <ButtonArrow name="Cotton" href='/' />
                 </div>
             </div>
-            </div>
-          <div className="d-flex landing-products-container">
-              <div>
+
+              <div className="col-12 col-md-6">
                   <div className="landing-products-items">
                     <img src={wool} alt='wool' className='product-img ' />
                   </div>
@@ -95,7 +94,7 @@ const Landing = () => {
                   <ButtonArrow name="Wool" href='/' />
                   </div>
               </div>
-              <div>
+              <div className="col-12 col-md-6">
               <div className="landing-products-items">
               <img  src={pins} alt='knitting pins' className='product-img' />
               </div>

@@ -14,7 +14,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="navbar ">
+    <nav className="navbar fixed-top">
       <div className="logo">
         <a href="/"><h1 style={{
           outline:'none'
@@ -28,8 +28,8 @@ const Navbar = () => {
       <div className="navbar-links">
         <ul>
           <li><a href="/shop">Shop</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/contactus">Contact us</a></li>
+          <li className="nav-active"><a href="/about">About</a></li>
+          <li ><a href="/contactus">Contact us</a></li>
         </ul>
       </div>
     </nav>

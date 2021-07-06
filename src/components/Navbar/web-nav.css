@@ -66,11 +66,19 @@
     border-radius: 10px;
 }
 
+/* .navbar-links ul .nav-active a{
+  display: flex;
+  color: #acb690 !important;
+  font-weight: bold;
+} */
+
 @media (max-width: 800px){
   .navbar {
     width: 100%;
     left: 0;
+    padding: 16px 16px !important;
 }
+
 
 .toggle-button {
     display: flex;
@@ -104,5 +112,6 @@
 .navbar-links.active {
     display: flex;
 }
+
 }
   
